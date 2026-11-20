@@ -1,0 +1,12 @@
+{
+  "itemGroup.abcdwater": "ABCDwater",
+  "mod.abcdwater.name": "ABCDwater - Auto Water Clutch",
+  "key.categories.abcdwater": "ABCDwater",
+  "key.abcdwater.toggle": "Toggle Auto Water Clutch",
+  "message.abcdwater.toggle.on": "Auto Water Clutch: ON",
+  "message.abcdwater.toggle.off": "Auto Water Clutch: OFF",
+  "state.abcdwater.on": "ON",
+  "state.abcdwater.off": "OFF",
+  "command.abcdwater.height": "Trigger height set to %s blocks (1-64)",
+  "command.abcdwater.status": "Auto Water Clutch: %s | Trigger height: %s blocks"
+}

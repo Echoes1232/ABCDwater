@@ -1,0 +1,12 @@
+{
+  "itemGroup.abcdwater": "ABCDwater",
+  "mod.abcdwater.name": "ABCDwater - 自动落地水",
+  "key.categories.abcdwater": "自动落地水",
+  "key.abcdwater.toggle": "开关自动落地水",
+  "message.abcdwater.toggle.on": "自动落地水：已开启",
+  "message.abcdwater.toggle.off": "自动落地水：已关闭",
+  "state.abcdwater.on": "已开启",
+  "state.abcdwater.off": "已关闭",
+  "command.abcdwater.height": "触发高度已设为 %s 格（范围 1-64）",
+  "command.abcdwater.status": "自动落地水：%s | 触发高度：%s 格"
+}

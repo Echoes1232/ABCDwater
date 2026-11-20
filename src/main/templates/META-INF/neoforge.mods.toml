@@ -1,0 +1,41 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="ABCDwater — 自动落地水"
+description='''
+自动落地水 (Auto MLG Water Clutch) — 纯客户端 NeoForge 模组。
+
+从高处坠落时自动在脚下放水，免除摔伤伤害。
+只需在快捷栏放一桶水，跳崖时自动触发。
+
+功能：
+• 智能预测 — 仅在有摔伤风险时放水
+• 双重放水 — 先俯视右键，不成功则直接交互方块
+• 自动回收 — 落地后自动用空桶收回水源，桶可重复使用
+• 维度适配 — 下界自动禁用，水中不浪费桶
+• 纯客户端 — 任何服务器都能用
+• 快捷键开关 — 默认 '，状态写入配置文件
+• 高度可调 — 默认 6 格，可在 1-64 格之间调整
+
+来源：移植自 lao2010 的开源项目 ABCDwater（MIT），1.21.1 适配由 DeepSeek 完成。
+用法：快捷栏放水桶 → 从高处跳下 → 自动落地水！按 ' 可开关。
+'''
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
